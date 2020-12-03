@@ -1,0 +1,22 @@
+* {
+    background-color: grey;
+}
+
+.music-search {
+    display: grid;
+    font-family: monospace;
+}
+
+.card {
+    font-family: fantasy;
+    display: inline-block;
+    margin: 30px;
+}
+
+.submit-button {
+    background-color: cornflowerblue;
+}
+
+.clear-button {
+    background-color: cornflowerblue;
+}

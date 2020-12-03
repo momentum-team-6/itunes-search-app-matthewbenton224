@@ -3,33 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
   <script src="main.js" defer></script>
   <title>Matt's Music</title>
 </head>
 <body>
-  <div class="audio-player" id="audio-player">
-  
-  <figure>
-    <figcaption>Now Playing:</figcaption>
-    <audio></audio>
-  </figure>
-  <form id = "music-search">
-    <input type="search" placeholder="Name of Artist" id="music-input"></input>
-    <button type="submit">Search</button>
-  </form>
-  <div>
-    <div class="search-results" id="search-results-container">
-      <div class="search-results-title"> 
-        <h1 class="search-results-title-text">Results</h1>
-      </div>
-      <section class="search-results-card" id="search-results-cards">
-        <div class="search-results-list" id="search-results-list">
-        </div>
-      </section>
-
+  <form id = "music-search" style="display: grid; margin:10em;">
+    <input type="search" placeholder="Name of Artist" id="music-input" class="input-field"></input>
+    <div id="search-terms">
+      <input type="radio" id="artist" name="search-type" value="artist" default>
+      <label for="artist">Artist</label>
+      <input type="radio" id="song" name="search-type" value="song">
+      <label for="song">Song</label>
+      <input type="radio" id="album" name="search-type" value="albun">
+      <label for="album">Album</label>
     </div>
-  </div>
-  </section>
-  </div>
+    <button class="submit-button" type="submit">Search</button>
+    <button id="clear-button" style="background-color: cornflowerblue;">Clear</button>
+    <audio id="audio-player"></audio>
+  </form>
+  <div id="card-holder"></div>
 </body>
 </html>
