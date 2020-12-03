@@ -3,6 +3,7 @@ const musicInput = document.querySelector('#music-input')
 const baseUrl = 'https://itunes-api-proxy.glitch.me/search?term='
 const audioPlayer = document.querySelector('#audio-player')
 const musicCards = document.querySelector('#card-holder')
+const form = document.querySelector('form')
 
 
 musicSearch.addEventListener ('submit', function(event) {
@@ -49,7 +50,7 @@ function renderSong(song) {
 
 
 const pastTargets = []
-cardHolder.addEventListener('click', function (event) {
+musicCards.addEventListener('click', function (event) {
    if (typeof (event.target.dataset.target) === 'string') {
        pastTargets.push(event.target)
        audioPlayer.classList.remove('hide')

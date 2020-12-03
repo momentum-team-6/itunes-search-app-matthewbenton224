@@ -8,15 +8,28 @@
 }
 
 .card {
-    font-family: fantasy;
+    font-family: monospace;
     display: inline-block;
     margin: 30px;
+    font-size: small;
 }
 
 .submit-button {
     background-color: cornflowerblue;
+    font-size: large;
 }
 
 .clear-button {
     background-color: cornflowerblue;
+    font-size: large;
+}
+
+#music-input {
+    background-color: white;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+#search-terms {
+    font-size: large;
 }
