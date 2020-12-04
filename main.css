@@ -35,9 +35,17 @@
 }
 
 #card-holder {
-    margin: 160px;
+    margin: 118px;
 }
 
 .image {
-    margin: 80px;
+    margin: 100px;
+}
+
+.artist-name {
+    text-align: center;
+}
+
+.track-title {
+    text-align: center;
 }
