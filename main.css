@@ -1,0 +1,51 @@
+* {
+    background-color: grey;
+}
+
+.music-search {
+    display: grid;
+    font-family: monospace;
+}
+
+.card {
+    font-family: monospace;
+    display: inline-block;
+    margin: 30px;
+    font-size: small;
+}
+
+.submit-button {
+    background-color: cornflowerblue;
+    font-size: large;
+}
+
+.clear-button {
+    background-color: cornflowerblue;
+    font-size: large;
+}
+
+#music-input {
+    background-color: white;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+#search-terms {
+    font-size: large;
+}
+
+#card-holder {
+    margin: 118px;
+}
+
+.image {
+    margin: 100px;
+}
+
+.artist-name {
+    text-align: center;
+}
+
+.track-title {
+    text-align: center;
+}
